@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  iOS-Components
+//
+//  Created by felix on 2017/9/8.
+//  Copyright © 2017年 zongqi.shen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import "UIColor+ShColor.h"
+
+
+#define SIZE [UIScreen mainScreen].bounds.size
+#define FONT_14 [UIFont systemFontOfSize:14.0f]
+#define COLOR_323232 [UIColor colorWithHexString:@"323232"]
+#define COLOR_00BA9A [UIColor colorWithHexString:@"00BA9A"]
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
